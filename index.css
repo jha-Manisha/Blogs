@@ -1,0 +1,120 @@
+body{
+   color: #010101;
+   font-weight: bold;
+   font-family: monospace;
+   line-height: normal;
+}
+
+.btn{
+  background: #5a0990;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+}
+
+.blog-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #dcc7c7;
+  padding: 20px;
+  border: 1px solid #292626;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.blog-popup.show {
+  display: block;
+}
+
+.blog-box {
+  border: 3px solid #71737f;
+  border-radius: 70px;
+  padding: 50px 50px;
+  margin: 50px 70px;
+}
+
+.blog-box h2 {
+  margin-top: 0;
+}
+
+.blog-box p {
+  margin-bottom: 0;
+}
+
+.blog-box h3{
+  color: #4343cb;
+}
+
+.sortFilter{
+  color: rgb(176, 4, 82);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.title{
+  color: rgb(39, 52, 149);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn2{
+  background-color: rgb(195, 184, 222);
+  color: rgb(4, 15, 77);
+  font-weight: bold;
+}
+
+.comments{
+  text-align: right;
+}
+
+.comments h4{
+  color: black;
+}
+
+.comments h5{
+  color: #5E5DF0;
+}
+
+.commentPopup{
+
+}
+
+.comment-popup{
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #dcc7c7;
+  padding: 20px;
+  border: 1px solid #292626;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
